@@ -16,7 +16,7 @@ reset
   */
 
   body{
-    background-color: rgb(232, 232, 151);
+    background-color: rgb(236, 118, 21);
   }
 
   .coontainer{
@@ -25,13 +25,14 @@ reset
     background-color: white;
   }
 
+  
   /* 
   header
    */
+
    header{
     text-align: center;
     padding-top: 20px;
-   
    }
 
     h1{
@@ -39,9 +40,48 @@ reset
     padding-bottom: 40px;
    }
 
-
+   header > p{
+    padding-bottom: 20px;
+   }
 
    /* 
    main 
    */
+
+   .clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+   }
+
+   .card{
+    background-color:#0F0E17;
+    width: calc(100% /3 - 40px) ;
+    height: 88px;
+    float: left;
+    margin: 20px;
+   }
+
+   .card > img{
+    width: 30%;
+    float: left;
+   }
+
+   .card-right{
+    float: left;
+    text-align: left;
+    color: white;
+    padding: 18px;
+   }
+
+   .card-right > h2{
+    font-size: 18px;
+   }
+
+ .card-right > a{
+    font-size: small;
+    color: #0075D5;
+ }
+
+   
 
