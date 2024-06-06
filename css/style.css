@@ -15,9 +15,29 @@ reset
  general
   */
 
+  body{
+    background-color: rgb(232, 232, 151);
+  }
+
+  .coontainer{
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+  }
+
   /* 
   header
    */
+   header{
+    text-align: center;
+    padding-top: 20px;
+   
+   }
+
+    h1{
+    color: #E53170;
+    padding-bottom: 40px;
+   }
 
 
 
