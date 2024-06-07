@@ -7,7 +7,7 @@ reset
     padding: 0;
     box-sizing: border-box;
     font-family: "Fredoka", sans-serif;
-}
+  }
 
  /* 
  general
@@ -22,6 +22,7 @@ reset
     min-height: 800px;
     margin: auto;
     background-color: white;
+    text-align: center;
   }
   
   /* 
@@ -29,7 +30,6 @@ reset
    */
 
    header{
-    text-align: center;
     padding-top: 20px;
    }
 
@@ -76,12 +76,11 @@ reset
     font-size: 18px;
    }
 
- .card-right > a{
+   .card-right > a{
     font-size: small;
     color:#70CAF1;
     text-decoration: none;
- }
+    }
+  
 
-
- PROVAAAAAAAAAAA
 
